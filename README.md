@@ -15,7 +15,7 @@ Creating a Shopping mall website using HTML, CSS, PHP and MySQL.
 | Github | https://github.com/eunajeon0401/ALREADY-AWESOME-PHP-Project.git |
 
 ## Periods of Development
-2023-01-12(Thu) ~ 2023-01-17(Mon)
+2023-01-12(Thu) ~ 2023-01-17()
 
 ## Feature Summary and Description
 
