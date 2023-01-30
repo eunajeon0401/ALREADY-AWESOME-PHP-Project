@@ -1,0 +1,53 @@
+#board_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+div#title{
+  width: 80%;
+  border-bottom: 1px solid black ;
+  text-align: center;
+  margin: 50px 0;
+}
+
+h3{
+  font-size: 35px;
+  background-color: var(--text_color);
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+.board_input{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+}
+
+#input_title{
+  width: 90%;
+}
+
+ul{
+  border-bottom: 1px solid var(--line_color);
+  padding-bottom: 15px;
+}
+
+ul.buttons{
+  margin-top: 0;
+  display: flex;
+  justify-content: end;
+}
+
+button {
+  height: 2rem;
+  width: 10rem;
+}
+
+button:hover{
+  background-color: black;
+  color: white; 
+}

@@ -1,0 +1,65 @@
+h2{
+  width: 55rem;
+  text-align: center;
+  border-bottom : 1px solid black;
+  padding: 40px 0 50px 0;
+  font-size: 35px;
+  background-color: var(--text_color);
+}
+
+#member_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#member_info{
+  display: flex;
+  flex-direction: column;
+  margin: 45px 0 0 0;
+}
+.error {
+  background-color: rgb(255, 72, 72);
+}
+.success{
+  background-color: rgb(164, 245, 164);
+}
+
+ul{
+  margin: 0;
+}
+
+ul.member_info_input{
+  border-top: 1px solid black ;
+  margin: 0;
+}
+
+ul li{
+  line-height: 66px;
+}
+li.regist_title{
+  width: 10rem;
+  border-right: 1px solid black ;
+  padding: 0;
+  line-height: 66px;
+  font-size: 20px;
+}
+
+#member_info input{
+  height: 2rem;
+  width: 15rem;
+  margin: 10px 0 10px 0;
+  border : 1px solid var(--line_color);
+}
+
+#member_button input{
+  height: 2rem;
+  width: 10rem;
+  margin: 65px 50px 50px 0;
+}
+
+#member_button input:hover{
+  background-color: black;
+  color: white;
+}
+

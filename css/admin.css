@@ -1,0 +1,143 @@
+
+#admin_box{
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+#main_title{
+  width: 80%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+#title{
+  font-size: 35px;
+  background-color: var(--text_color);
+}
+
+.list_title{
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.list_title li {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid var(--line_color);
+}
+
+form{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.input_form{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+li#input{
+  width: 100%;
+}
+
+input{
+  width: 70%;
+}
+#input4 , #input5{
+  width: 5%;
+}
+
+ul#subtitle1{
+  width: 70%;
+
+}
+#subtitle2{
+  width: 60%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 30px;
+  background-color: var(--text_color);
+}
+
+ul#subtitle1{
+  margin-top: 50px;
+}
+
+ul{
+  padding-left: 0;
+}
+
+li#input{
+  line-height: 80px;
+  padding: 0px;
+}
+
+#input_id{
+  width: 10%;
+  padding-left: 50px;
+}
+
+#revier_title{
+  display: block;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#buy_title{
+  display: block;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+li.list_title2{
+  font-size: 30px;
+  border-bottom: 1px solid black;
+}
+
+input{
+  border : 1px solid var(--line_color);
+}
+
+#image{
+  display: block;
+  width: 200px;
+}
+
+#img{
+  display: block;
+  width: 150px;
+  padding-right: 30px;
+}
+
+
+#image{
+  display: block;
+  width: 350px;
+}
+
+#img{
+  height: 70px;
+  width: 30%;
+  padding-right: 30px;
+}
+
+#input2 span{
+  width: 50px;
+  margin: 0 35px;
+  line-height: 70px;
+}
+
+#list_title3{
+  width: 30px;
+  margin: 0 auto;
+  justify-content: space-around;
+}
